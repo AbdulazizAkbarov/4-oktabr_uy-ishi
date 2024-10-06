@@ -1,0 +1,98 @@
+footer {
+  margin-top: 80px;
+  height: auto;
+  background-color: #292C32;
+}
+
+footer .box_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 50px;
+  gap: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+footer .box_wrap h3 {
+  color: #B87D58;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+footer .box_wrap ul li {
+  list-style-type: none;
+  color: #6A6A6A;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+footer .box_wrap ul li a {
+  color: #6A6A6A;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  color: white;
+  font-family: sans-serif;
+  line-height: 40px;
+}
+
+footer .box_wrap ul li a:hover {
+  color: #B87D58;
+}
+
+footer .box_wrap form {
+  background-color: white;
+  border-radius: 8px;
+}
+
+footer .box_wrap form input {
+  padding: 14px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 80px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+footer .box_wrap form button {
+  background-color: #292C32;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-right: 10px;
+}
+
+footer .foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+footer .foot img {
+  width: 200px;
+  height: auto;
+}
+
+footer .footer_logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+footer p {
+  color: white;
+  font-family: sans-serif;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
